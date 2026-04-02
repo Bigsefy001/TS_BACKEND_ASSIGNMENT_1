@@ -31,7 +31,7 @@ const bookSchema = new mongoose.Schema({
 	},
 	issuedBy: {
 		type: mongoose.Schema.Types.ObjectId,
-		ref: "LibraryAttendant",
+		ref: "Attendant",
 		default: null,
 	},
 	returnDate: {
